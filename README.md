@@ -16,7 +16,8 @@ Working with data collected from the accelerometers from the Samsung Galaxy S sm
 ####The Instructions
 Run the run_analysis.R script
 
-The following are the steps the script takes
+The following are the steps the script takes:
+
 Step 1 - If you do not already have the data downloaded locally, the script calls to the pull_samsung_data.R to create a data directory - download the samsung data (internet connection required) - and unzips the data files.
 
 Step 2 - Column names are taken from the features.txt file and are assigned to the merged test, training, subject and label datasets
